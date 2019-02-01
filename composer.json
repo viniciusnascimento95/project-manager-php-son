@@ -1,0 +1,22 @@
+{
+    "name": "viniciusnascimento95/projeton-son",
+    "authors": [
+        {
+            "name": "vinicius nascimento",
+            "email": "nascimento.vinicius32@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SON\\Framework\\": "src",
+            "App\\": "app"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:8082 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
